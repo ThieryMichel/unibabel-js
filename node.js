@@ -1,7 +1,7 @@
 'use strict';
 
 console.warn("Please don't use Unibabel in node.js. If you think you really think you have a valid use case please report it at https://github.com/coolaj86/unibabel-js/issues/new");
-if (process.env.NODE_ENV !== 'test) {  
+if (process.env.NODE_ENV !== 'test') {  
   throw new Error("[unibabel] you're doing it wrong");
 }
 
